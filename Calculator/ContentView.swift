@@ -15,6 +15,8 @@ struct ContentView: View {
     var body: some View {
 
         VStack {
+            Spacer()
+
             TextField("Eingeben", value: self.$zahl, formatter: NumberFormatter())
                 .font(.system(size: 36))
                 .padding()
@@ -74,6 +76,7 @@ struct ContentView: View {
                     .font(.system(size: 36))
                     .padding()
             }
+            Spacer()
             Button("löschen", action: { clearPressed() })
                 .font(.system(size: 36))
 

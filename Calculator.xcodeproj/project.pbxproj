@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		684555C62903F9340087A29D /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		684555C62903F9340087A29D /* 3 plus 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3 plus 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		684555C92903F9340087A29D /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		684555CB2903F9340087A29D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		684555CD2903F9350087A29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		684555C72903F9340087A29D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				684555C62903F9340087A29D /* Calculator.app */,
+				684555C62903F9340087A29D /* 3 plus 3.app */,
 				684555D72903F9350087A29D /* CalculatorTests.xctest */,
 				684555E12903F9350087A29D /* CalculatorUITests.xctest */,
 			);
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		684555C52903F9340087A29D /* Calculator */ = {
+		684555C52903F9340087A29D /* 3 plus 3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 684555EB2903F9350087A29D /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildConfigurationList = 684555EB2903F9350087A29D /* Build configuration list for PBXNativeTarget "3 plus 3" */;
 			buildPhases = (
 				684555C22903F9340087A29D /* Sources */,
 				684555C32903F9340087A29D /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = Calculator;
+			name = "3 plus 3";
 			productName = Calculator;
-			productReference = 684555C62903F9340087A29D /* Calculator.app */;
+			productReference = 684555C62903F9340087A29D /* 3 plus 3.app */;
 			productType = "com.apple.product-type.application";
 		};
 		684555D62903F9350087A29D /* CalculatorTests */ = {
@@ -221,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				684555C52903F9340087A29D /* Calculator */,
+				684555C52903F9340087A29D /* 3 plus 3 */,
 				684555D62903F9350087A29D /* CalculatorTests */,
 				684555E02903F9350087A29D /* CalculatorUITests */,
 			);
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		684555D92903F9350087A29D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 684555C52903F9340087A29D /* Calculator */;
+			target = 684555C52903F9340087A29D /* 3 plus 3 */;
 			targetProxy = 684555D82903F9350087A29D /* PBXContainerItemProxy */;
 		};
 		684555E32903F9350087A29D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 684555C52903F9340087A29D /* Calculator */;
+			target = 684555C52903F9340087A29D /* 3 plus 3 */;
 			targetProxy = 684555E22903F9350087A29D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,13 +433,15 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.iSolute.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = de.iSolute.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,13 +472,15 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.iSolute.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = de.iSolute.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -578,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		684555EB2903F9350087A29D /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+		684555EB2903F9350087A29D /* Build configuration list for PBXNativeTarget "3 plus 3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				684555EC2903F9350087A29D /* Debug */,
